@@ -16,12 +16,12 @@ function App() {
         isLargeRow
       />
       <Row title="TRENDING NOW" fetchUrl={requests.fetchTrending} />
-      <Row title="TopRated" fetchUrl={requests.fetchTopRated} />
-      <Row title="ActionMovie" fetchUrl={requests.fetchActionMovie} />
-      <Row title="ComedyMovie" fetchUrl={requests.fetchComedyMovie} />
-      <Row title="HorrorMovie" fetchUrl={requests.fetchHorrorMovie} />
-      <Row title="RomanceMovie" fetchUrl={requests.fetchRomanceMovie} />
-      <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
+      <Row title="TOP RATED" fetchUrl={requests.fetchTopRated} />
+      <Row title="ACTION" fetchUrl={requests.fetchActionMovie} />
+      <Row title="COMEDY" fetchUrl={requests.fetchComedyMovie} />
+      <Row title="HORROR" fetchUrl={requests.fetchHorrorMovie} />
+      <Row title="ROMANCE" fetchUrl={requests.fetchRomanceMovie} />
+      <Row title="DOCUMENTARIES" fetchUrl={requests.fetchDocumentaries} />
     </div>
   );
 }

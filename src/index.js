@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import RoutingPages from "./RoutingPages";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RoutingPages />
   </React.StrictMode>,
   document.getElementById("root")
 );
